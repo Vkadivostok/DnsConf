@@ -8,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 
 public class App {
-    static void main() {
+    public static void main(String[] args) {
         String provider = EnvironmentVariables.DNS.toUpperCase();
 
         String commonsBasePackage = "com.novibe.common";
