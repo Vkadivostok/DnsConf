@@ -19,7 +19,8 @@ public class HostsOverrideListsLoader extends ListLoader<HostsOverrideListsLoade
                 .filter(str -> !str.isBlank())
                 .filter(line -> !line.startsWith("#"))
                 .filter(line -> !HostsBlockListsLoader.isBlock(line))
-                .map(this::mapLine);
+                .map(this::mapLine)
+                .filter(route -> route != null);
     }
 
     @Override
@@ -28,9 +29,12 @@ public class HostsOverrideListsLoader extends ListLoader<HostsOverrideListsLoade
     }
 
     private BypassRoute mapLine(String line) {
-        int delimiter = line.indexOf(" ");
-        String ip = line.substring(0, delimiter++);
-        String website = line.substring(delimiter);
+        String[] parts = line.split("\\s+", 3);
+        if (parts.length < 2) {
+            return null;
+        }
+        String ip = parts[0];
+        String website = parts[1];
         return new BypassRoute(ip, website);
     }
 
