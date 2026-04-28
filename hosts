@@ -117,6 +117,64 @@
 45.155.204.190 www.openai.com
 95.182.120.241 www.openai.com
 
+# Дополнительные домены OpenAI/ChatGPT/Codex из официальных сетевых рекомендаций OpenAI
+45.155.204.190 cdn.openaimerge.com
+95.182.120.241 cdn.openaimerge.com
+45.155.204.190 cdn.workos.com
+95.182.120.241 cdn.workos.com
+45.155.204.190 challenges.cloudflare.com
+95.182.120.241 challenges.cloudflare.com
+45.155.204.190 ct.sendgrid.net
+95.182.120.241 ct.sendgrid.net
+45.155.204.190 desktop.chat.openai.com
+95.182.120.241 desktop.chat.openai.com
+45.155.204.190 developers.openai.com
+95.182.120.241 developers.openai.com
+45.155.204.190 events.statsigapi.net
+95.182.120.241 events.statsigapi.net
+45.155.204.190 featureassets.org
+95.182.120.241 featureassets.org
+45.155.204.190 featuregates.org
+95.182.120.241 featuregates.org
+45.155.204.190 forwarder.workos.com
+95.182.120.241 forwarder.workos.com
+45.155.204.190 humb.apple.com
+95.182.120.241 humb.apple.com
+45.155.204.190 images.workoscdn.com
+95.182.120.241 images.workoscdn.com
+45.155.204.190 intercom.io
+95.182.120.241 intercom.io
+45.155.204.190 intercomcdn.com
+95.182.120.241 intercomcdn.com
+45.155.204.190 js.intercomcdn.com
+95.182.120.241 js.intercomcdn.com
+45.155.204.190 js.stripe.com
+95.182.120.241 js.stripe.com
+45.155.204.190 o207216.ingest.sentry.io
+95.182.120.241 o207216.ingest.sentry.io
+45.155.204.190 o33249.ingest.sentry.io
+95.182.120.241 o33249.ingest.sentry.io
+45.155.204.190 oaiusercontent.com
+95.182.120.241 oaiusercontent.com
+45.155.204.190 prodregistryv2.org
+95.182.120.241 prodregistryv2.org
+45.155.204.190 rum.browser-intake-datadoghq.com
+95.182.120.241 rum.browser-intake-datadoghq.com
+45.155.204.190 setup.auth.openai.com
+95.182.120.241 setup.auth.openai.com
+45.155.204.190 setup.workos.com
+95.182.120.241 setup.workos.com
+45.155.204.190 statsig.com
+95.182.120.241 statsig.com
+45.155.204.190 statsigapi.net
+95.182.120.241 statsigapi.net
+45.155.204.190 status.openai.com
+95.182.120.241 status.openai.com
+45.155.204.190 workos.imgix.net
+95.182.120.241 workos.imgix.net
+45.155.204.190 ws.chatgpt.com
+95.182.120.241 ws.chatgpt.com
+
 
 
 # Claude
